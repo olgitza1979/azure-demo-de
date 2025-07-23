@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Willkommen!</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      padding-top: 100px;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 4em;
+      animation: drop 1.5s ease-in-out;
+    }
+    p {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+    @keyframes drop {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Herzlich Willkommen!</h1>
+  <p>Dies ist ein CI/CD-Demo-Webprojekt mit GitHub & Azure App Service.</p>
+</body>
+</html>
